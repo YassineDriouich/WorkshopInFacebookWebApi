@@ -10,6 +10,7 @@ namespace EmployeeManagement.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        // Add New Action in Repo
         private readonly IEmployeeService _employeeService;
         public EmployeeController(IEmployeeService employeeService)
         {
