@@ -36,7 +36,7 @@ namespace EmployeeManagement.Services
         {
             return _employeeManagementDbContext.employees.ToList();
         }
-
+        //Action GetEmployee BY ID
         public Employee GetById(int id)
         {
            return _employeeManagementDbContext.employees.Find(id);
